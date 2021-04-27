@@ -8,7 +8,7 @@ export default function ListItemDeleteItem({ onPress }) {
   return (
     <TouchableHighlight onPress={onPress}>
       <View style={styles.container}>
-        <MaterialCommunityIcons name="trash-can" size={35} />
+        <MaterialCommunityIcons name="trash-can" size={55} />
       </View>
     </TouchableHighlight>
   );
