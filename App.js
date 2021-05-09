@@ -19,9 +19,15 @@ import Screen from './app/components/Screen';
 import ListItem from './app/components/ListItem';
 import AccountScreen from './app/screens/AccountScreen';
 import ListingScreen from './app/screens/ListingScreen';
+import AppText from './app/components/AppText';
+import AppTextInput from './app/components/AppTextInput';
 
 export default function App() {
-  return <ListingScreen />;
+  return (
+    <Screen>
+      <AppTextInput icon="email" palaceholder="Artem" />
+    </Screen>
+  );
 }
 
 const styles = StyleSheet.create({
