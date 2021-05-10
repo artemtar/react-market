@@ -21,12 +21,11 @@ import AccountScreen from './app/screens/AccountScreen';
 import ListingScreen from './app/screens/ListingScreen';
 import AppText from './app/components/AppText';
 import AppTextInput from './app/components/AppTextInput';
+import LoginScreen from './app/screens/LoginScreen';
 
 export default function App() {
   return (
-    <Screen>
-      <AppTextInput icon="email" palaceholder="Artem" />
-    </Screen>
+      <LoginScreen/>
   );
 }
 
